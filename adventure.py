@@ -1,7 +1,7 @@
 __author__ = 'Les Pounder'
 
 """
-    The lines below import modules of code into our game,
+    The lines below import modules of code into our GAME,
     in particular these import time functions allow us to pause and stop the game,
     and random provides a method of choosing random numbers or characters.
 """
@@ -40,7 +40,7 @@ def setup():
     global HP
     global MP
     #Our variable "name" is used to store our name, captured by keyboard input.
-    name = input("What is your name, earth hero?")
+    name = input("What is your alias, villain?")
     #randint is a great way of adding some variety to your players statistics through randomness
     HP = randint(5,20)
     MP = randint(5,20)
