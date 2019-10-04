@@ -4,6 +4,8 @@ __author__ = 'Les Pounder'
     The lines below import modules of code into our GAME,
     in particular these import time functions allow us to pause and stop the game,
     and random provides a method of choosing random numbers or characters.
+    
+    To run this file in your terminal, type: `python3 adventure.py`
 """
 from time import *
 from random import *
